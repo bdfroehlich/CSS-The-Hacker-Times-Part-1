@@ -8,7 +8,7 @@ body{
 header :not(.date) {
     text-align: center;
     font-family: Abril Fatface;
-    font-size: 300%;
+    font-size: 250%;
 }
 
 .newspaper-container {
@@ -61,7 +61,7 @@ h2, h4 {
     font-family: Roboto Slab;
 }
 
-p {
+main p {
     font-family: Source Sans Pro;
     text-align: justify;
     padding-right: 10px;
@@ -76,17 +76,22 @@ section p {
 }
 
 .more-articles section {
+    /* border: 1px solid red; */
     display: inline-block;
     width: 49%;
     border-top: 1px solid lightgray;
     margin: 0 auto;
     text-align: center;
+    font-family: Source Sans Pro;
+    padding: auto;
 }
 
 h4 {
     text-align: left;
     padding-left: 20px;
 }
+    
+
 
 /* section img {
     display: inline-block;
